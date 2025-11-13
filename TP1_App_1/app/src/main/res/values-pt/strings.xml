@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1 App 1</string>
+
+    <string name="form_title">Informações</string>
+
+    <string name="last_name_label">Apelido:</string>
+    <string name="last_name_hint">Insira o seu apelido</string>
+
+    <string name="first_name_label">Nome:</string>
+    <string name="first_name_hint">Insira o seu nome</string>
+
+    <string name="age_label">Idade:</string>
+    <string name="age_hint">Insira a sua idade</string>
+
+    <string name="area_of_expertise_label">Área de especialização:</string>
+    <string name="area_of_expertise_hint">Insira a sua área de especialização</string>
+
+    <string name="phone_number_label">Telemóvel:</string>
+    <string name="phone_number_hint">Insira o seu número de telemóvel</string>
+
+    <string name="confirm_button_label">Confirmar</string>
+
+    <string name="form_confirmed_message">Confirmado.</string>
+    <string name="dialog_box_close_button">Fechar</string>
+
+    <string name="recap_title">Resumo das Informações</string>
+
+    <string name="recap_full_name">Nome Completo: %1$s</string>
+    <string name="recap_age">Idade: %1$s</string>
+    <string name="recap_area_of_expertise">Área de especialização: %1$s</string>
+    <string name="recap_phone_number">Número de telefone: %1$s</string>
+
+    <string name="recap_next_button">Próximo</string>
+    <string name="recap_back_button">Voltar</string>
+
+    <string name="last_activity_message">Tela Final</string>
+
+    <string name="call_button">Ligar</string>
+    <string name="phone_icon_alt">Ícone de telefone</string>
+    <string name="call_permission_denied">Permissão de chamada negada.</string>
+</resources>

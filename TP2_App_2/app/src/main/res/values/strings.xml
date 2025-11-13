@@ -1,0 +1,130 @@
+<resources>
+    <string name="app_name">Missing Sensors</string>
+
+    <string name="main_title">Missing sensors</string>
+
+    <string name="sensor_type_label">Type: %s</string>
+    <string name="sensor_name_label">Name: %s</string>
+    <string name="sensor_vendor_label">Vendor: %s</string>
+
+    <string name="expand_button_desc">Click to see more sensors</string>
+
+
+    <string name="detail_title">Sensor Details</string>
+
+    <string name="detail_type_label">Type</string>
+    <string name="detail_string_type_label">String Type</string>
+    <string name="detail_name_label">Name</string>
+    <string name="detail_vendor_label">Vendor</string>
+    <string name="detail_version_label">Version</string>
+    <string name="detail_max_range_label">Maximum Range</string>
+    <string name="detail_resolution_label">Resolution</string>
+    <string name="detail_power_label">Power consumption</string>
+    <string name="detail_min_delay_label">Minimum Delay</string>
+    <string name="detail_max_delay_label">Maximum Delay</string>
+    <string name="detail_reporting_mode_label">Reporting Mode</string>
+    <string name="detail_wakeup_label">Wake-Up</string>
+    <string name="detail_dynamic_label">Dynamic</string>
+    <string name="detail_id_label">ID</string>
+
+    <string name="no_missing_sensors">All standard sensor types have been detected!\nYou are not missing a standard sensor.</string>
+
+    <!-- the names of the sensor types -->
+    <string name="sensor_type_1">Accelerometer</string>
+    <string name="sensor_type_2">Magnetic Field</string>
+    <string name="sensor_type_3">Orientation (Deprecated)</string>
+    <string name="sensor_type_4">Gyroscope</string>
+    <string name="sensor_type_5">Light</string>
+    <string name="sensor_type_6">Pressure</string>
+    <string name="sensor_type_7">Temperature (Deprecated)</string>
+    <string name="sensor_type_8">Proximity</string>
+    <string name="sensor_type_9">Gravity</string>
+    <string name="sensor_type_10">Linear Acceleration</string>
+    <string name="sensor_type_11">Rotation Vector</string>
+    <string name="sensor_type_12">Relative Humidity</string>
+    <string name="sensor_type_13">Ambient Temperature</string>
+    <string name="sensor_type_14">Magnetic Field Uncalibrated</string>
+    <string name="sensor_type_15">Game Rotation Vector</string>
+    <string name="sensor_type_16">Gyroscope Uncalibrated</string>
+    <string name="sensor_type_17">Significant Motion</string>
+    <string name="sensor_type_18">Step Detector</string>
+    <string name="sensor_type_19">Step Counter</string>
+    <string name="sensor_type_20">Geomagnetic Rotation Vector</string>
+    <string name="sensor_type_21">Heart Rate</string>
+    <string name="sensor_type_22">Tilt Detector</string>
+    <string name="sensor_type_23">Wake Gesture</string>
+    <string name="sensor_type_24">Glance Gesture</string>
+    <string name="sensor_type_25">Pick Up Gesture</string>
+    <string name="sensor_type_26">Wrist Tilt Gesture</string>
+    <string name="sensor_type_27">Device Orientation</string>
+    <string name="sensor_type_28">Pose 6DOF</string>
+    <string name="sensor_type_29">Stationary Detect</string>
+    <string name="sensor_type_30">Motion Detect</string>
+    <string name="sensor_type_31">Heart Beat</string>
+    <string name="sensor_type_32">Dynamic Sensor Meta</string>
+    <string name="sensor_type_33">Low Latency Off-body Detect</string>
+    <string name="sensor_type_34">Reserved (34)</string>
+    <string name="sensor_type_35">Accelerometer Uncalibrated</string>
+    <string name="sensor_type_36">Hinge Angle</string>
+    <string name="sensor_type_37">Head Tracker</string>
+    <string name="sensor_type_38">Accelerometer Limited Axes</string>
+    <string name="sensor_type_39">Reserved (39)</string>
+    <string name="sensor_type_40">Accelerometer Limited Axes Uncalibrated</string>
+    <string name="sensor_type_41">Gyroscope Limited Axes Uncalibrated</string>
+    <string name="sensor_type_42">Heading</string>
+
+    <string name="sensor_type_vendor">Vendor-Specific Sensor</string>
+    <string name="sensor_type_unknown">Unknown Sensor Type</string>
+
+
+    <string name="unavailable_features_title">%s undetected</string>
+    <string name="unavailable_features_subtitle">The following features may be unavailable:</string>
+
+    <!-- the features of the sensor types -->
+
+    <string name="sensor_features_1">- Automatic screen rotation\n- Motion-based game controls (tilting)\n- Step counting in fitness apps</string>
+    <string name="sensor_features_2">- Compass applications\n- Metal detector apps\n- Improved map orientation</string>
+    <string name="sensor_features_3">- Older compass apps (this sensor is deprecated)</string>
+    <string name="sensor_features_4">- 360-degree video and VR/AR\n- "Photo Sphere" or panorama features\n- Advanced motion stabilization (EIS/OIS)</string>
+    <string name="sensor_features_5">- Automatic screen brightness adjustment</string>
+    <string name="sensor_features_6">- Altimeter functions in hiking/weather apps\n- Barometric pressure reading</string>
+    <string name="sensor_features_7">- Ambient room temperature (this sensor is deprecated)</string>
+    <string name="sensor_features_8">- Turning off the screen when holding the phone to your ear during a call</string>
+    <string name="sensor_features_9">- "Tilt" detection\n- Differentiating between linear motion and gravity</string>
+    <string name="sensor_features_10">- Advanced motion tracking without gravity\n- Inertial navigation systems</string>
+    <string name="sensor_features_11">- Smooth compass orientation\n- 3D motion tracking</string>
+    <string name="sensor_features_12">- Weather station apps (humidity %)\n- "Comfort level" environment readings</string>
+    <string name="sensor_features_13">- Ambient room temperature readings</string>
+    <string name="sensor_features_14">- Raw, uncalibrated magnetic field data for scientific apps</string>
+    <string name="sensor_features_15">- High-performance game controls (rotation without magnetic interference)</string>
+    <string name="sensor_features_16">- Raw, uncalibrated gyroscope data for scientific apps</string>
+    <string name="sensor_features_17">- Low-power motion detection (e.g., waking the device when picked up)</string>
+    <string name="sensor_features_18">- "Per-step" event detection in fitness apps</string>
+    <string name="sensor_features_19">- Total step counting since reboot (low-power, always-on)</string>
+    <string name="sensor_features_20">- Compass rotation using only magnetometer and accelerometer</string>
+    <string name="sensor_features_21">- Heart rate monitoring (BPM) in fitness apps</string>
+    <string name="sensor_features_22">- Specific tilt-detection events</string>
+    <string name="sensor_features_23">- Waking the device with a specific gesture (e.g., double-tap)</string>
+    <string name="sensor_features_24">- "Glance" gestures (e.g., waving a hand over the screen)</string>
+    <string name="sensor_features_25">- "Pick up" gestures (e.g., raising the phone to view notifications)</string>
+    <string name="sensor_features_26">- "Wrist tilt" gestures for smartwatches (e.g., turning wrist to see time)</string>
+    <string name="sensor_features_27">- Alternative device orientation (API 26+)</string>
+    <string name="sensor_features_28">- Advanced AR (Augmented Reality) tracking\n- 6-Degrees-of-Freedom positional tracking</string>
+    <string name="sensor_features_29">- Detecting if the device is stationary for long periods</string>
+    <string name="sensor_features_30">- General motion detection event</string>
+    <string name="sensor_features_31">- "Per-beat" heart event detection</string>
+    <string name="sensor_features_32">- Management of dynamically added/removed sensors</string>
+    <string name="sensor_features_33">- Low-latency detection for "off-body" state (wearables)</string>
+    <string name="sensor_features_34">- No standard features (Reserved sensor type)</string>
+    <string name="sensor_features_35">- Raw, uncalibrated accelerometer data for scientific apps</string>
+    <string name="sensor_features_36">- Detecting the angle of a foldable device\'s hinge</string>
+    <string name="sensor_features_37">- Head tracking for VR/AR headsets</string>
+    <string name="sensor_features_38">- Low-power, limited-axis acceleration data</string>
+    <string name="sensor_features_39">- No standard features (Reserved sensor type)</string>
+    <string name="sensor_features_40">- Raw, uncalibrated, limited-axis accelerometer data</string>
+    <string name="sensor_features_41">- Raw, uncalibrated, limited-axis gyroscope data</string>
+    <string name="sensor_features_42">- Heading/azimuth information (compass direction)</string>
+
+    <string name="sensor_features_unknown">No specific features are documented for this sensor type.</string>
+
+</resources>

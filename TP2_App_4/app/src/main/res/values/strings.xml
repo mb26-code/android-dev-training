@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Movement Direction</string>
+    <string name="sensor_not_found">Linear Acceleration sensor not found.</string>
+</resources>

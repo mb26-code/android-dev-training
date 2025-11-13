@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1 App 1</string>
+
+    <string name="form_title">Πληροφορίες</string>
+
+    <string name="last_name_label">Επώνυμο:</string>
+    <string name="last_name_hint">Εισαγάγετε το επώνυμό σας</string>
+
+    <string name="first_name_label">Όνομα:</string>
+    <string name="first_name_hint">Εισαγάγετε το όνομά σας</string>
+
+    <string name="age_label">Ηλικία:</string>
+    <string name="age_hint">Εισαγάγετε την ηλικία σας</string>
+
+    <string name="area_of_expertise_label">Τομέας εξειδίκευσης:</string>
+    <string name="area_of_expertise_hint">Εισαγάγετε τον τομέα εξειδίκευσής σας</string>
+
+    <string name="phone_number_label">Αριθμός τηλεφώνου:</string>
+    <string name="phone_number_hint">Εισαγάγετε τον αριθμό τηλεφώνου σας</string>
+
+    <string name="confirm_button_label">Επιβεβαίωση</string>
+
+    <string name="form_confirmed_message">Επιβεβαιώθηκε.</string>
+    <string name="dialog_box_close_button">Κλείσιμο</string>
+
+    <string name="recap_title">Ανακεφαλαίωση</string>
+
+    <string name="recap_full_name">Ονοματεπώνυμο: %1$s</string>
+    <string name="recap_age">Ηλικία: %1$s</string>
+    <string name="recap_area_of_expertise">Τομέας εξειδίκευσης: %1$s</string>
+    <string name="recap_phone_number">Αριθμός τηλεφώνου: %1$s</string>
+
+    <string name="recap_next_button">Επόμενο</string>
+    <string name="recap_back_button">Πίσω</string>
+
+    <string name="last_activity_message">Τελική Οθόνη</string>
+
+    <string name="call_button">Κλήση</string>
+    <string name="phone_icon_alt">Εικονίδιο τηλεφώνου</string>
+    <string name="call_permission_denied">Η άδεια κλήσης απορρίφθηκε.</string>
+</resources>

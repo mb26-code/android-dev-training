@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1 App 1</string>
+
+    <string name="form_title">Información</string>
+
+    <string name="last_name_label">Apellido:</string>
+    <string name="last_name_hint">Introduzca su apellido</string>
+
+    <string name="first_name_label">Nombre:</string>
+    <string name="first_name_hint">Introduzca su nombre</string>
+
+    <string name="age_label">Edad:</string>
+    <string name="age_hint">Introduzca su edad</string>
+
+    <string name="area_of_expertise_label">Área de especialización:</string>
+    <string name="area_of_expertise_hint">Introduzca su área de especialización</string>
+
+    <string name="phone_number_label">Número de teléfono:</string>
+    <string name="phone_number_hint">Introduzca su número de teléfono</string>
+
+    <string name="confirm_button_label">Confirmar</string>
+
+    <string name="form_confirmed_message">Confirmado.</string>
+    <string name="dialog_box_close_button">Cerrar</string>
+
+    <string name="recap_title">Resumen de información</string>
+
+    <string name="recap_full_name">Nombre completo: %1$s</string>
+    <string name="recap_age">Edad: %1$s</string>
+    <string name="recap_area_of_expertise">Área de especialización: %1$s</string>
+    <string name="recap_phone_number">Número de teléfono: %1$s</string>
+
+    <string name="recap_next_button">Siguiente</string>
+    <string name="recap_back_button">Volver</string>
+
+    <string name="last_activity_message">Pantalla final</string>
+
+    <string name="call_button">Llamar</string>
+    <string name="phone_icon_alt">Icono de teléfono</string>
+    <string name="call_permission_denied">Permiso de llamada denegado.</string>
+</resources>

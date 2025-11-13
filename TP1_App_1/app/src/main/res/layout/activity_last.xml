@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_activity_message"
+        android:textSize="25sp"
+        android:layout_marginBottom="25dp"/>
+
+    <ImageView
+        android:id="@+id/phone_icon"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/telephone_icon"
+        android:contentDescription="@string/phone_icon_alt"/>
+
+    <TextView
+        android:id="@+id/phone_number_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="____________"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"/>
+
+    <Button
+        android:id="@+id/call_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/call_button"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

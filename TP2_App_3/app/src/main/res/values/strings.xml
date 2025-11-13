@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Color Accelerometer</string>
+
+    <string name="accelerometer_value_format">Acceleration: %.2f m/s²</string>
+
+    <string name="sensor_not_found">Accelerometer not found.</string>
+</resources>

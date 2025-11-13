@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/unavailable_features_activity_view"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".UnavailableFeaturesActivity">
+
+    <TextView
+        android:id="@+id/unavailableFeaturesTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="[SENSOR TYPE] Undetected"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:layout_marginBottom="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/unavailable_features_subtitle"
+        android:textAppearance="@style/TextAppearance.AppCompat.Small"
+        android:layout_marginBottom="16dp"/>
+
+    <TextView
+        android:id="@+id/unavailableFeaturesTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:lineSpacingExtra="4dp"
+        tools:text="- Feature 1\n- Feature 2"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
+
+</LinearLayout>

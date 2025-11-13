@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1 App 1</string>
+
+    <string name="form_title">Informations</string>
+
+    <string name="last_name_label">Nom :</string>
+    <string name="last_name_hint">Entrez votre nom</string>
+
+    <string name="first_name_label">Prénom :</string>
+    <string name="first_name_hint">Entrez votre prénom</string>
+
+    <string name="age_label">Âge :</string>
+    <string name="age_hint">Entrez votre âge</string>
+
+    <string name="area_of_expertise_label">Domaine :</string>
+    <string name="area_of_expertise_hint">Entrez votre domaine de compétences</string>
+
+    <string name="phone_number_label">Téléphone :</string>
+    <string name="phone_number_hint">Entrez votre numéro de téléphone</string>
+
+    <string name="confirm_button_label">Confirmer</string>
+
+    <string name="form_confirmed_message">Confirmé.</string>
+    <string name="dialog_box_close_button">Fermer</string>
+
+    <string name="recap_title">Récapitulatif</string>
+
+    <string name="recap_full_name">Nom complet : %1$s</string>
+    <string name="recap_age">Âge : %1$s</string>
+    <string name="recap_area_of_expertise">Domaine de compétences : %1$s</string>
+    <string name="recap_phone_number">Numéro de téléphone : %1$s</string>
+
+    <string name="recap_next_button">Suivant</string>
+    <string name="recap_back_button">Retour</string>
+
+    <string name="last_activity_message">Écran final</string>
+
+    <string name="call_button">Appeler</string>
+    <string name="phone_icon_alt">Icône de téléphone</string>
+    <string name="call_permission_denied">Permission d\'appel refusée.</string>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DetailLabel" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">start</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:paddingEnd">16dp</item> <item name="android:paddingBottom">8dp</item> </style>
+
+    <style name="DetailValue" parent="Widget.AppCompat.TextView">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_gravity">fill_horizontal</item>
+        <item name="android:paddingBottom">8dp</item> </style>
+</resources>

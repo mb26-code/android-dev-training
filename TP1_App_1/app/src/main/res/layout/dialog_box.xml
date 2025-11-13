@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="25dp"
+    android:gravity="center_horizontal">
+
+    <ProgressBar
+        android:id="@+id/dialog_box_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminate="true"/>
+
+    <!-- form confirm message -->
+    <LinearLayout
+        android:id="@+id/dialog_box_message_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/dialog_box_message_checkmark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="✅"
+            android:textSize="50sp"/>
+
+        <TextView
+            android:id="@+id/dialog_box_message_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/form_confirmed_message"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"/>
+
+        <Button
+            android:id="@+id/dialog_box_close_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dialog_box_close_button"
+            android:layout_marginTop="20dp"/>
+    </LinearLayout>
+
+</LinearLayout>

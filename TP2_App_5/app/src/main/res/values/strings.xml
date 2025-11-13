@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Shake Flash</string>
+
+    <string name="status_text">Shake your smartphone!</string>
+    <string name="sensor_not_found">Linear Acceleration sensor not found.</string>
+    <string name="camera_access_error">Cannot access camera for flash.</string>
+</resources>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Form Call</string>
+
+    <string name="form_title">Information</string>
+
+    <string name="last_name_label">Last Name:</string>
+    <string name="last_name_hint">Enter your last name</string>
+
+    <string name="first_name_label">First Name:</string>
+    <string name="first_name_hint">Enter your first name</string>
+
+    <string name="age_label">Age:</string>
+    <string name="age_hint">Enter your age</string>
+
+    <string name="area_of_expertise_label">Area of expertise:</string>
+    <string name="area_of_expertise_hint">Enter your area of expertise</string>
+
+    <string name="phone_number_label">Phone number:</string>
+    <string name="phone_number_hint">Enter your phone number</string>
+
+    <string name="confirm_button_label">Confirm</string>
+
+    <string name="form_confirmed_message">Confirmed.</string>
+    <string name="dialog_box_close_button">Close</string>
+
+    <string name="recap_title">Information Recap</string>
+
+    <string name="recap_full_name">Full Name: %1$s</string>
+    <string name="recap_age">Age: %1$s</string>
+    <string name="recap_area_of_expertise">Area of expertise: %1$s</string>
+    <string name="recap_phone_number">Phone number: %1$s</string>
+
+    <string name="recap_next_button">Next</string>
+    <string name="recap_back_button">Back</string>
+
+    <string name="last_activity_message">Last Screen</string>
+
+    <string name="call_button">Call</string>
+    <string name="phone_icon_alt">Telephone icon</string>
+    <string name="call_permission_denied">Permission to call denied.</string>
+</resources>

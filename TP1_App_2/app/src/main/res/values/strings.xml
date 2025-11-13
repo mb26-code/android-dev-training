@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Train Search</string>
+
+    <string name="search_form_title">Train Search</string>
+    <string name="departure_town_field_label">Departure Town:</string>
+    <string name="departure_town_hint">e.g., Paris</string>
+    <string name="arrival_town_field_label">Arrival Town:</string>
+    <string name="arrival_town_hint">e.g., Lyon</string>
+    <string name="search_button">Search</string>
+
+    <string name="result_title_default">Search Result</string>
+    <string name="result_title_template">Search Result (%1$s -> %2$s)</string>
+    <string name="back_button">Back</string>
+
+    <string name="departure_platform_template">Platform %1$s</string>
+    <string name="arrival_platform_template">Platform %1$s</string>
+</resources>

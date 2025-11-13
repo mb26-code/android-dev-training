@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <!-- form title -->
+    <TextView
+        android:id="@+id/form_title_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/form_title"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:layout_marginBottom="15dp"/>
+
+    <!-- inner form (labels + user input fields) -->
+
+    <TextView
+        android:id="@+id/last_name_field_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/last_name_label"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/last_name_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/last_name_hint"/>
+
+    <TextView
+        android:id="@+id/first_name_field_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/first_name_label"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/first_name_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/first_name_hint"/>
+
+    <TextView
+        android:id="@+id/age_field_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_label"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/age_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="@string/age_hint"/>
+
+    <TextView
+        android:id="@+id/area_of_expertise_field_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/area_of_expertise_label"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/area_of_expertise_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="@string/area_of_expertise_hint"/>
+
+    <TextView
+        android:id="@+id/phone_number_field_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number_label"
+        android:textSize="20sp"/>
+    <EditText
+        android:id="@+id/phone_number_input_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:hint="@string/phone_number_hint"/>
+
+    <!-- form confirm button -->
+    <Button
+        android:id="@+id/confirm_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:text="@string/confirm_button_label"/>
+
+</LinearLayout>

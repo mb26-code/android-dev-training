@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TP1 App 1</string>
+
+    <string name="form_title">情報</string>
+
+    <string name="last_name_label">姓:</string>
+    <string name="last_name_hint">姓を入力してください</string>
+
+    <string name="first_name_label">名:</string>
+    <string name="first_name_hint">名を入力してください</string>
+
+    <string name="age_label">年齢:</string>
+    <string name="age_hint">年齢を入力してください</string>
+
+    <string name="area_of_expertise_label">専門分野:</string>
+    <string name="area_of_expertise_hint">専門分野を入力してください</string>
+
+    <string name="phone_number_label">電話番号:</string>
+    <string name="phone_number_hint">電話番号を入力してください</string>
+
+    <string name="confirm_button_label">確認</string>
+
+    <string name="form_confirmed_message">確認しました。</string>
+    <string name="dialog_box_close_button">閉じる</string>
+
+    <string name="recap_title">情報概要</string>
+
+    <string name="recap_full_name">氏名: %1$s</string>
+    <string name="recap_age">年齢: %1$s</string>
+    <string name="recap_area_of_expertise">専門分野: %1$s</string>
+    <string name="recap_phone_number">電話番号: %1$s</string>
+
+    <string name="recap_next_button">次へ</string>
+    <string name="recap_back_button">戻る</string>
+
+    <string name="last_activity_message">最終画面</string>
+
+    <string name="call_button">電話をかける</string>
+    <string name="phone_icon_alt">電話アイコン</string>
+    <string name="call_permission_denied">通話権限が拒否されました。</string>
+</resources>
